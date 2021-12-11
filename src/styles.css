@@ -1,4 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Faustina:ital,wght@0,300;1,500&family=Henny+Penny&family=Poller+One&display=swap");
+
+:root {
+  --primary-color: #1da2cad0;
+  --secondary-color: #7e6cce;
+  --font-color: #f9f9f1;
+}
+
 .App {
-  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  font-family: "Architects Daughter", cursive;
+  background-color: var(--primary-color);
+  color: var(--font-color);
+  margin: 0;
+}
+
+.genre-button {
+  font-family: inherit;
+  background-color: var(--font-color);
+  text-transform: capitalize;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  margin: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 0.6rem;
+  cursor: pointer;
+}
+
+.genre-button:hover {
+  transform: scale(0.98);
+}
+
+.genre-button:focus {
+  font-size: 1.5rem;
+  /* background-color: #3B82F6; */
+  /* color: var(--font-color); */
+}
+
+.movie-section {
+  margin: 3rem 0;
+  /* text-align: center; */
+}
+
+.movie-card {
+  display: flex;
+  margin-bottom: 1rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  background-color: var(--secondary-color);
+  border-radius: 1rem;
+}
+
+.movie-poster {
+  width: 225px;
+  height: 300px;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.movie-desc {
+  width: 80%;
+  margin-left: 1rem;
+}
+
+.movie-name {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.movie-story {
+  margin: 3rem auto 0;
+  max-width: 800px;
   text-align: center;
 }
