@@ -11,3 +11,4 @@ A movie recommendation app developed in codesandbox which recommend greatest mov
 * App tells recommended movies in a selected genre.
 * Users can see information about the movie in the movie card.
 ### Demo
+![](/images/Demo.png)
